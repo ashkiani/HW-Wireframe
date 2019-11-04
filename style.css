@@ -1,24 +1,38 @@
 /*
   Easier Assignment - Building a Wireframe
   11/03/2019 Siavash: Created the initial file with some test content with Header, Nav, Aside, Section, Article and Paragraph.
-
+  11/03/2019 Siavash: Updated the css file per assignment instaructions (changed background color, width, etc...)  
 */
+
 body{
-  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#777;
+  background: #777;
+  width: 960px;
+  font-size: 18px;
+
 }
 header{
   text-align: center;
 }
 nav,header,section,aside,footer{
-  background-color: teal;
+  background:#ebebeb;
   margin: 10px;
+}
+article{
+  color:#ebebeb;
+  background: #777;
+}
+h1,p{
+  color:#777;
+  background: #ebebeb;
 }
 
 section,aside{
   float: left;
 }
 section{
-  width: 60%;
+  width: 495px;
 }
 footer{
   clear: both;
