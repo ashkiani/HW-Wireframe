@@ -1,0 +1,25 @@
+/*
+  Easier Assignment - Building a Wireframe
+  11/03/2019 Siavash: Created the initial file with some test content with Header, Nav, Aside, Section, Article and Paragraph.
+
+*/
+body{
+  background-color: white;
+}
+header{
+  text-align: center;
+}
+nav,header,section,aside,footer{
+  background-color: teal;
+  margin: 10px;
+}
+
+section,aside{
+  float: left;
+}
+section{
+  width: 60%;
+}
+footer{
+  clear: both;
+}
