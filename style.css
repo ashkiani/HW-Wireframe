@@ -18,6 +18,7 @@ header{
 nav,header,section,aside,footer{
   background:#ebebeb;
   margin: 10px;
+  border: 1px solid black;
 }
 article{
   color:#ebebeb;
@@ -36,4 +37,5 @@ section{
 }
 footer{
   clear: both;
+  text-align: center;
 }
